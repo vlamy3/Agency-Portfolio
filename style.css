@@ -11,7 +11,31 @@ body {
     color: var(--text);
     margin: 0;
 }
+/* Global Link Reset - Put this at the top */
+a, a:visited, a:active {
+    text-decoration: none;
+    color: inherit; /* This makes links take the color of the text around them */
+}
 
+/* Agency Nav Specifics */
+.agency-nav .nav-links {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.agency-nav a:hover {
+    color: var(--primary); /* Subtle green glow on hover */
+}
+
+/* Footer Email Polish */
+.footer-email {
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 4px;
+    color: var(--text) !important;
+}
 .section { padding: 6rem 5%; }
 
 /* Typography */
