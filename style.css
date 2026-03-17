@@ -35,6 +35,7 @@ a, a:visited, a:active {
     border-bottom: 2px solid var(--primary);
     padding-bottom: 4px;
     color: var(--text) !important;
+    padding-left: 10px;
 }
 .section { padding: 6rem 5%; }
 
