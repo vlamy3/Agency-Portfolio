@@ -104,3 +104,28 @@ h1 { font-size: clamp(3rem, 8vw, 6rem); line-height: 0.9; letter-spacing: -3px; 
     letter-spacing: 1px;
     opacity: 0.8;
 }
+/* Fix Nav Link Colors & Spacing */
+.agency-nav a {
+    text-decoration: none;
+    color: var(--text); /* Forces it to stay black/white instead of blue */
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.agency-nav a:hover {
+    color: var(--primary);
+}
+
+.agency-nav .nav-links {
+    display: flex;
+    gap: 3rem; /* Gives those links some breathing room */
+    align-items: center;
+}
+
+/* Ensure the 'Start a Project' button stands out */
+.btn-primary {
+    background: var(--primary);
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
